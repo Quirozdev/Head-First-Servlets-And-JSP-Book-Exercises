@@ -1,0 +1,10 @@
+<web-app ...>
+	<context-param>
+		<param-name>foo</param-name>
+		<param-value>bar</param-value>
+	</context-param>
+	<servlet>
+		<servlet-name>BeerTest </servlet-name>
+		<servlet-class>com.wickedlysmart.BeerTester</servlet-class>
+	</servlet>
+</web-app>
